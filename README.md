@@ -1,10 +1,10 @@
-# Bluewater Invoice Automation
+# Excel VBA Invoice Automation
 
 An Excel VBA project that turns orders into numbered, print-ready invoices. Customer details and product prices come from the workbook's catalogs, so an order can be built by selecting codes and entering quantities.
 
 ## Get started
 
-1. Download [Bluewater Invoice Automation.xlsm](Bluewater%20Invoice%20Automation.xlsm) and open it in desktop Excel for Windows. Allow the workbook macros if Excel prompts you and you trust the file.
+1. Download [Excel Invoice Automation.xlsm](Excel%20Invoice%20Automation.xlsm) and open it in desktop Excel for Windows. Allow the workbook macros if Excel prompts you and you trust the file.
 2. In **Settings**, enter your business and payment details, invoice prefix, and payment terms.
 3. On **Order Sheet**, choose a customer code and product codes, then enter quantities. **Customers** and **Products** hold the source records.
 4. On **Invoice**, choose **Generate Invoice**. Excel validates the order and creates an invoice with a number, issue date, due date, and calculated totals. Save the workbook to retain the invoice sequence.
@@ -23,5 +23,5 @@ The included customer, product and email records are fictional. Enter your actua
 
 | File | Purpose |
 | --- | --- |
-| [Bluewater Invoice Automation.xlsm](Bluewater%20Invoice%20Automation.xlsm) | Ready-to-use workbook with the catalogs, formulas, and embedded macros |
+| [Excel Invoice Automation.xlsm](Excel%20Invoice%20Automation.xlsm) | Ready-to-use workbook with the catalogs, formulas, and embedded macros |
 | [InvoiceAutomation.bas](InvoiceAutomation.bas) | Exported VBA module for invoice generation and email preparation |
